@@ -1,0 +1,8 @@
+Model głosujący
+Rozważmy model, w którym w każdym wierzchołku pewnego grafu $G$ umieszczamy agenta, który ma jedną z dwóch możliwych opinii $s_n\in{-1,1}$, $n\in V(G)$. 
+W jednej rundzie rozważanej dynamiki każdy agent zmienia swoją opinię zgodnie z tym jaką opinię ma większość jego sąsiadów w grafie $G$. 
+Remisy nie zmieniają opinii agenta.
+
+dla wybranego spojnego grafu o $|V(G)|>6$ udowodnij, że rozważany model jest łańcuchem Markowa,
+wyznacz macierz opisującą ten proces oraz jego stan ergodyczny,
+porównaj przewidywania teorii łańcuchów Markowa z symulacjami, zwracając uwage na zależność obu metod od wybranego stanu początkowego modelu.
